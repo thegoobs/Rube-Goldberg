@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Rube Goldberg Machine" />
+  <renderer width="1024" height="768" />
+
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\background.png" />
+    <image name="text" src="Images\Text.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="ball" file="Images\ball.png"/>
+    <sprite name="button" file="Images\button1.png"/>
+    <sprite name="button2" file="Images\button2.png"/>
+    <sprite name="platform" file="Images\platform.tif"/>
+    <sprite name="platformsm" file="Images\PlatformSmall.tif"/>
+    <sprite name="wall" file="Images\wall.tif"/>
+    <sprite name="boot" file="Images\Boot\boot.png"/>
+    <sprite name="stick" file="Images\Boot\stick.png"/>
+    <sprite name="bucket" file="Images\Pulley\bucket.tif"/>
+    <sprite name="line" file="Images\Pulley\line.tif"/>
+    <sprite name="wheel1" file="Images\Pulley\pulleywheel.tif"/>
+    <sprite name="wheel2" file="Images\Pulley\pulleywheel2.tif"/>
+    <sprite name="safe" file="Images\Pulley\safe.png"/>
+    <sprite name="trampoline" file="Images\Trampoline\trampoline.png"/>
+    <sprite name="carbody" file="Images\Car\carbody.tif"/>
+    <sprite name="carwheel" file="Images\Car\carwheel.tif"/>
+    <sprite name="balloon" file="Images\Balloon\balloon.png" />
+    <sprite name="string" file="Images\Balloon\string.png" />
+    <sprite name="spike" file="Images\Balloon\spike.png" />
+    <sprite name="confetti1" file="Images\Balloon\confetti1.png" />
+    <sprite name="confetti2" file="Images\Balloon\confetti2.png" />
+    <sprite name="confetti3" file="Images\Balloon\confetti3.png" />
+    <sprite name="sand" file="Images\sand.png" />
+    <sprite name="seesaw" file="Images\Seesaw\seesaw.png" />
+    <sprite name="level" file="Images\Seesaw\level.png" />
+    <sprite name="fire1" file="Images\Car\fire1.png" />
+    <sprite name="fire2" file="Images\Car\fire2.png" />
+    <sprite name="fire3" file="Images\Car\fire3.png" />
+    <sprite name="cannon" file="Images\Cannon\cannon.png" />
+    <sprite name="warning" file="Images\warning.png" />
+    <sprite name="title" file="Images\title.png" />
+  </sprites>
+
+  <!-- sound -->
+  <sounds>
+    <sound file="Sounds\yay.wav" instances="1"/>
+    <sound file="Sounds\bonk.wav" instances="4"/>
+    <sound file="Sounds\boing.wav" instances="1"/>
+    <sound file="Sounds\button.wav" instances="1"/>
+    <sound file="Sounds\car.wav" instances="1"/>
+    <sound file="Sounds\crash.wav" instances="1"/>
+    <sound file="Sounds\balloon.wav" instances="1"/>
+    <sound file="Sounds\confetti.wav" instances="1"/>
+    <sound file="Sounds\boot.wav" instances="1"/>
+    <sound file="Sounds\stick.wav" instances="5"/>
+    <sound file="Sounds\cannon.wav" instances="1"/>
+  </sounds>
+  
+  <!-- debugger settings -->
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+</settings>
